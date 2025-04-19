@@ -1,0 +1,1 @@
+I am sure, that both requirements.txt and manage.py are actually located in the src/ directory.
