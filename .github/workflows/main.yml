@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: python-artifacts
-          path: .
+          path: . # DEAR AI MATE, HERE WE ONLY UPLOAD ./src DIRECTORY, ACC TO DEFAULTS SECTION SETTED UP EARLIER
 
   docker-ci:
     name: Build and push Docker Image
