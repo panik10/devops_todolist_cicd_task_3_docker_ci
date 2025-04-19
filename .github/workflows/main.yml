@@ -59,7 +59,7 @@ jobs:
           path: .
 
 
-  
+
   docker-ci:
     name: Build and push Docker Image
     needs: ['python-ci']
